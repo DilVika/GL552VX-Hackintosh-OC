@@ -38,7 +38,7 @@
 				<key>Path</key>
 				<string>SSDT-GPIO.aml</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -70,23 +70,15 @@
 				<key>Path</key>
 				<string>SSDT-ALS0.aml</string>
 				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-GPRW.aml</string>
-				<key>Path</key>
-				<string>SSDT-GPRW.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>FixShutdown-USB-SSDT.aml</string>
-				<key>Path</key>
-				<string>FixShutdown-USB-SSDT.aml</string>
-				<key>Enabled</key>
 				<false/>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-GPRW.aml</string>
+				<key>Path</key>
+				<string>SSDT-GPRW.aml</string>
+				<key>Enabled</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -119,14 +111,6 @@
 				<string>SSDT-PMCR.aml</string>
 				<key>Enabled</key>
 				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-NoHybGfx.aml</string>
-				<key>Path</key>
-				<string>SSDT-NoHybGfx.aml</string>
-				<key>Enabled</key>
-				<false/>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -502,11 +486,27 @@
 				<data>AAAbGQ==</data>
 				<key>device-id</key>
 				<data>GxkAAA==</data>
+				<key>framebuffer-con1-pipe</key>
+				<data>EgAAAA==</data>
+				<key>framebuffer-con2-enable</key>
+				<integer>1</integer>
+				<key>framebuffer-con2-flags</key>
+				<data>hwEAAA==</data>
+				<key>framebuffer-con2-type</key>
+				<data>AAgAAA==</data>
+				<key>framebuffer-con3-enable</key>
+				<integer>1</integer>
+				<key>framebuffer-patch1-enable</key>
+				<integer>1</integer>
+				<key>framebuffer-patch1-find</key>
+				<data>CgsDAAAHBgADAAAABAAAAA==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
 				<key>layout-id</key>
 				<integer>21</integer>
+				<key>alc-delay</key>
+				<integer>1000</integer>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1c,0x0)/Pci(0x0)</key>
 			<dict>
@@ -1160,7 +1160,7 @@
 			<key>PickerAttributes</key>
 			<integer>1</integer>
 			<key>PickerAudioAssist</key>
-			<false/>
+			<true/>
 			<key>PickerMode</key>
 			<string>External</string>
 			<key>PollAppleHotKeys</key>
@@ -1292,7 +1292,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string> brcmfx -country=#a keepsyms=1 -wegnoegpu  </string>
+				<string> brcmfx-country=#a keepsyms=1 -wegnoegpu </string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
