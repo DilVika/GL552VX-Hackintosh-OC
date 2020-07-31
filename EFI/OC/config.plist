@@ -26,19 +26,19 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-PNLF.aml</string>
-				<key>Path</key>
-				<string>SSDT-PNLF.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-GPIO.aml</string>
 				<key>Path</key>
 				<string>SSDT-GPIO.aml</string>
 				<key>Enabled</key>
 				<false/>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-PNLF.aml</string>
+				<key>Path</key>
+				<string>SSDT-PNLF.aml</string>
+				<key>Enabled</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -502,11 +502,34 @@
 				<data>AAAbGQ==</data>
 				<key>device-id</key>
 				<data>GxkAAA==</data>
+				<key>disable-external-gpu</key>
+				<integer>1</integer>
+				<key>framebuffer-con1-pipe</key>
+				<data>EgAAAA==</data>
+				<key>framebuffer-con2-enable</key>
+				<integer>1</integer>
+				<key>framebuffer-con2-flags</key>
+				<data>hwEAAA==</data>
+				<key>framebuffer-con2-type</key>
+				<data>AAgAAA==</data>
+				<key>framebuffer-con3-enable</key>
+				<integer>1</integer>
+				<key>framebuffer-patch1-enable</key>
+				<integer>1</integer>
+				<key>framebuffer-patch1-find</key>
+				<data>CgsDAAAHBgADAAAABAAAAA==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
 				<key>layout-id</key>
 				<integer>21</integer>
+				<key>alc-delay</key>
+				<integer>1000</integer>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1C,0x3)/Pci(0x0,0x1)</key>
+			<dict>
+				<key>built-in</key>
+				<data>AQ==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1c,0x0)/Pci(0x0)</key>
 			<dict>
@@ -522,11 +545,6 @@
 				<string>Airport</string>
 				<key>pci-aspm-default</key>
 				<integer>0</integer>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x3)/Pci(0x0,0x1)</key>
-			<dict>
-				<key>built-in</key>
-				<data>AQ==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -984,22 +1002,6 @@
 				<key>BundlePath</key>
 				<string>Sinetek-rtsx.kext</string>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-				<key>Enabled</key>
-				<true/>
-				<key>MinKernel</key>
-				<string></string>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/NullEthernet</string>
-				<key>BundlePath</key>
-				<string>NullEthernet.kext</string>
-			</dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -1292,7 +1294,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string> brcmfx -country=#a keepsyms=1 -wegnoegpu  </string>
+				<string> brcmfx-country=#a keepsyms=1 </string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1356,7 +1358,7 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02651200CDHCF9UE</string>
+			<string>C02604104GUHCF9JA</string>
 			<key>ROM</key>
 			<data>NJf2vkY/</data>
 			<key>SpoofVendor</key>
@@ -1364,9 +1366,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro13,3</string>
 			<key>SystemSerialNumber</key>
-			<string>C02SV2YXGTFN</string>
+			<string>C02R50ZYGTFN</string>
 			<key>SystemUUID</key>
-			<string>37FCFBEA-7D35-45D2-83E1-755D7A7E5755</string>
+			<string>7AB56C2D-E3A1-467F-BB5B-3B3E948B3E46</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1401,13 +1403,13 @@
 			<key>AudioOut</key>
 			<integer>1</integer>
 			<key>AudioSupport</key>
-			<true/>
+			<false/>
 			<key>MinimumVolume</key>
 			<integer>36</integer>
 			<key>PlayChime</key>
 			<true/>
 			<key>VolumeAmplifier</key>
-			<integer>143</integer>
+			<integer>100</integer>
 		</dict>
 		<key>ConnectDrivers</key>
 		<true/>
