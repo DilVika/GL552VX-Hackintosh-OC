@@ -26,11 +26,11 @@
 		</data>
 		<key>Resources/Assets.car</key>
 		<data>
-		MX0XJ0hNKVLMlJtdDy4gu0RmOgo=
+		gNIkO3EDFGVq1BuH1xhWYsEOZHE=
 		</data>
 		<key>Resources/Audio/Codecs.plist</key>
 		<data>
-		0sp8Jc1vg4WiJUktfEcW1HN+kvI=
+		cb7HqVD3LwIHsAyGrEAS8+vVrfo=
 		</data>
 		<key>Resources/Audio/Controllers.plist</key>
 		<data>
@@ -52,6 +52,10 @@
 		<data>
 		j49ISJMgH3i0tShYFfQ3+HJOS7M=
 		</data>
+		<key>Resources/BT/IntelDevice.plist</key>
+		<data>
+		Rd1bfa1VuL1VY6avOA5pmEA5r9A=
+		</data>
 		<key>Resources/BannerEveryMac.png</key>
 		<data>
 		78v//ADHjMPz/Gb42pMXURv/tVs=
@@ -62,7 +66,7 @@
 		</data>
 		<key>Resources/Base.lproj/MainMenu.nib</key>
 		<data>
-		iCzDjINvHlpsyPbjwZWWiY6y/ZM=
+		s5IipO2uVS296YKLNtM+lrOZ/wI=
 		</data>
 		<key>Resources/Clover/config_patches.plist</key>
 		<data>
@@ -118,7 +122,7 @@
 		</data>
 		<key>Resources/Framebuffer/macOS 10.13.6/PlatformIDs.plist</key>
 		<data>
-		K+KDtfbGsOpCHP5Lax8JVMyYeyk=
+		NC4z3SodTnOHkVPvUNtsk0cUHzg=
 		</data>
 		<key>Resources/Framebuffer/macOS 10.13.6/Sandy Bridge.bin</key>
 		<data>
@@ -134,11 +138,15 @@
 		</data>
 		<key>Resources/Framebuffer/macOS 10.14/Coffee Lake.bin</key>
 		<data>
-		KC0cz4KYu4l9GA7NMqOQyHx2FYQ=
+		G0oYNl8aBf6m0ZMk933LVdYvxY0=
 		</data>
 		<key>Resources/Framebuffer/macOS 10.14/Haswell.bin</key>
 		<data>
 		UkoJkPtaD9iLk7Iz26qpuJnuCbU=
+		</data>
+		<key>Resources/Framebuffer/macOS 10.14/Ice Lake (LP).bin</key>
+		<data>
+		YuoZDPdshqKgtnH1tZfuj1jBIj8=
 		</data>
 		<key>Resources/Framebuffer/macOS 10.14/Ivy Bridge.bin</key>
 		<data>
@@ -150,7 +158,7 @@
 		</data>
 		<key>Resources/Framebuffer/macOS 10.14/PlatformIDs.plist</key>
 		<data>
-		c1XNcuaAeCGECOsPzukAiG5PGdM=
+		JrrKLx5HhivcnhyAODy1Xrb1jmo=
 		</data>
 		<key>Resources/Framebuffer/macOS 10.14/Skylake.bin</key>
 		<data>
@@ -604,6 +612,14 @@
 		<data>
 		Cj39IMQlmA4kvevVSLS2ye36n38=
 		</data>
+		<key>Resources/IconInject.png</key>
+		<data>
+		oDyL4kFvsgJEhxK0+NjYkUlTmLM=
+		</data>
+		<key>Resources/IconInject@2x.png</key>
+		<data>
+		17uqvMVcUpkA+rHiMi6tDfDwx0A=
+		</data>
 		<key>Resources/IconInstalled.png</key>
 		<data>
 		86yrGC3l5zCcuZF05REuJZn510I=
@@ -878,7 +894,7 @@
 		</data>
 		<key>Resources/Intel/DeviceIDs.plist</key>
 		<data>
-		6uAkjfq37vnn4oEEz+Bx3jQwqZo=
+		P2TJRd/8OqQJtOAvipX2ElBD9pw=
 		</data>
 		<key>Resources/Intel/FBDrivers.plist</key>
 		<data>
@@ -886,7 +902,7 @@
 		</data>
 		<key>Resources/Intel/GPUs.plist</key>
 		<data>
-		WSZHbUmBdo2bJebjiVUD/AiMCa4=
+		1aCtpKpgJJUQXLgnYK4bQyomxUQ=
 		</data>
 		<key>Resources/Intel/Models.plist</key>
 		<data>
@@ -1130,7 +1146,7 @@
 		</data>
 		<key>Resources/Kexts/kexts.plist</key>
 		<data>
-		UDCmNczQhpkoFqU/Ib+bpzhTBJs=
+		D36rXCkhennOHyLptHaqRZyc43M=
 		</data>
 		<key>Resources/OpenCore/config.plist</key>
 		<data>
@@ -1138,7 +1154,7 @@
 		</data>
 		<key>Resources/PCI/pci.ids</key>
 		<data>
-		gv2S1oVm0PFtmMsHS2yudlU04ok=
+		1NjEBIadYKwlGI5a4MI3i4RtMK0=
 		</data>
 		<key>Resources/USB/USBInjectAll-Info.plist</key>
 		<data>
@@ -1147,6 +1163,10 @@
 		<key>Resources/USB/config_patches.plist</key>
 		<data>
 		YHBpLyHex1VjKdK5XSb7TxAH+5c=
+		</data>
+		<key>Resources/USB/usb.ids</key>
+		<data>
+		P+iRFr0gAEvDygdtviBfxINRc7o=
 		</data>
 		<key>Resources/Utilities/iasl</key>
 		<data>
@@ -1177,7 +1197,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vQRbYDbX+JMZAnJsvss6iY9UZWA=
+			s2MlQxGCYpDkztQWrqyN0cqpAF0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1316,22 +1336,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MX0XJ0hNKVLMlJtdDy4gu0RmOgo=
+			gNIkO3EDFGVq1BuH1xhWYsEOZHE=
 			</data>
 			<key>hash2</key>
 			<data>
-			jRLsOJKkd+583eQzqrCURymplvgPo+fKnUZQHwTcDU4=
+			en9CMyQ8IKHZPMWV4guMYzEPnN1wcIvjhztAjUtuudQ=
 			</data>
 		</dict>
 		<key>Resources/Audio/Codecs.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0sp8Jc1vg4WiJUktfEcW1HN+kvI=
+			cb7HqVD3LwIHsAyGrEAS8+vVrfo=
 			</data>
 			<key>hash2</key>
 			<data>
-			F0JIrhmgUl6611dwSch+4DdzFBe7QK/6Ua65KFLAWss=
+			HhUCHad4kmvK3l4kbS8CsxdyS1ltmG9npwLdIYuuTGA=
 			</data>
 		</dict>
 		<key>Resources/Audio/Controllers.plist</key>
@@ -1389,6 +1409,17 @@
 			d0tT0q/HksuvXxNM/AB9S4QGTI9SJPq6BOxe5ati57Y=
 			</data>
 		</dict>
+		<key>Resources/BT/IntelDevice.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Rd1bfa1VuL1VY6avOA5pmEA5r9A=
+			</data>
+			<key>hash2</key>
+			<data>
+			up6nZ3zLfBYkqoyrXdKtgsH8kMf09jqImLdQUN5V1ZI=
+			</data>
+		</dict>
 		<key>Resources/BannerEveryMac.png</key>
 		<dict>
 			<key>hash</key>
@@ -1415,11 +1446,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iCzDjINvHlpsyPbjwZWWiY6y/ZM=
+			s5IipO2uVS296YKLNtM+lrOZ/wI=
 			</data>
 			<key>hash2</key>
 			<data>
-			klMsjsOZSL3O9r+2/ljLUcotv7xTlcVVUBBwfp3wX/k=
+			P1M8ZAhXAkiprB1tkSYlErVjT17t+nM7kMPAj2tozT8=
 			</data>
 		</dict>
 		<key>Resources/Clover/config_patches.plist</key>
@@ -1569,11 +1600,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			K+KDtfbGsOpCHP5Lax8JVMyYeyk=
+			NC4z3SodTnOHkVPvUNtsk0cUHzg=
 			</data>
 			<key>hash2</key>
 			<data>
-			uIz/4KgaBz6teyao66tYDgZy992Hd5s5ZGZOHdwRKBQ=
+			5ghI8Ku8WIp/6zxECTMgirqyNBt6On5ZElHhsUKYSDk=
 			</data>
 		</dict>
 		<key>Resources/Framebuffer/macOS 10.13.6/Sandy Bridge.bin</key>
@@ -1613,11 +1644,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KC0cz4KYu4l9GA7NMqOQyHx2FYQ=
+			G0oYNl8aBf6m0ZMk933LVdYvxY0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Jr4O2IFE7/MsalYOkxRKawvwtyraxOIDA6zQYLCmr1Q=
+			uF33Eu47iu7Q6+puojrx+3PYIJVaIyVKzu5oKm5Diac=
 			</data>
 		</dict>
 		<key>Resources/Framebuffer/macOS 10.14/Haswell.bin</key>
@@ -1629,6 +1660,17 @@
 			<key>hash2</key>
 			<data>
 			n0nBx0+EfhQcJWQPaQVsQwitmYiDwvjvwW9oaboYFr0=
+			</data>
+		</dict>
+		<key>Resources/Framebuffer/macOS 10.14/Ice Lake (LP).bin</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YuoZDPdshqKgtnH1tZfuj1jBIj8=
+			</data>
+			<key>hash2</key>
+			<data>
+			pVuK0E1389mfiC5HAsALBf3sezF8UrdwrTXrIa9Vx50=
 			</data>
 		</dict>
 		<key>Resources/Framebuffer/macOS 10.14/Ivy Bridge.bin</key>
@@ -1657,11 +1699,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			c1XNcuaAeCGECOsPzukAiG5PGdM=
+			JrrKLx5HhivcnhyAODy1Xrb1jmo=
 			</data>
 			<key>hash2</key>
 			<data>
-			Sb0Rg7VnSswvqbALbSTNYCZPDd/A9TNpksDplf4XqQA=
+			8/yKUikWjdBGtNJYRbgzsmo3LlwzCxJWPf64ZfEF9xk=
 			</data>
 		</dict>
 		<key>Resources/Framebuffer/macOS 10.14/Skylake.bin</key>
@@ -2625,6 +2667,28 @@
 			/lHDquN5yzG5C4OrFm4CdmB+SzzICzDp50vNJrhq4Xk=
 			</data>
 		</dict>
+		<key>Resources/IconInject.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oDyL4kFvsgJEhxK0+NjYkUlTmLM=
+			</data>
+			<key>hash2</key>
+			<data>
+			O4OLtkyk0e4arZF6/UyW2MFBg0EX7YutOnuq1o9fh14=
+			</data>
+		</dict>
+		<key>Resources/IconInject@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			17uqvMVcUpkA+rHiMi6tDfDwx0A=
+			</data>
+			<key>hash2</key>
+			<data>
+			yFbeTOYvLOu26P9wmMAdWj4vOybK2I+izMuzjzsrbWs=
+			</data>
+		</dict>
 		<key>Resources/IconInstalled.png</key>
 		<dict>
 			<key>hash</key>
@@ -3377,11 +3441,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6uAkjfq37vnn4oEEz+Bx3jQwqZo=
+			P2TJRd/8OqQJtOAvipX2ElBD9pw=
 			</data>
 			<key>hash2</key>
 			<data>
-			FEVPWA42Rmgcp3ZUyMvJwGAcpclDOjVE+2+DV20dj34=
+			54nKAhx8rQ1i4nd8Smbn2lqip4cBIyZBm0E9/zlIpVo=
 			</data>
 		</dict>
 		<key>Resources/Intel/FBDrivers.plist</key>
@@ -3399,11 +3463,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WSZHbUmBdo2bJebjiVUD/AiMCa4=
+			1aCtpKpgJJUQXLgnYK4bQyomxUQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			YF4CmP6lMlcnZTUdDK5k956SaImJfMq1evBJgfjL9NE=
+			vb73CwcAnA+zMRP9eo+tka9xZulUdAgZALLEw/wHFqw=
 			</data>
 		</dict>
 		<key>Resources/Intel/Models.plist</key>
@@ -4070,11 +4134,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UDCmNczQhpkoFqU/Ib+bpzhTBJs=
+			D36rXCkhennOHyLptHaqRZyc43M=
 			</data>
 			<key>hash2</key>
 			<data>
-			o49q2M+gr2TqpEQURU0r3+6+k0WqcjqnqEEm2XXKwkA=
+			4Zjro3pO2Vc+i3n6JcNc1G4uRC31YlRr3s9tLFcDEdQ=
 			</data>
 		</dict>
 		<key>Resources/OpenCore/config.plist</key>
@@ -4092,11 +4156,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gv2S1oVm0PFtmMsHS2yudlU04ok=
+			1NjEBIadYKwlGI5a4MI3i4RtMK0=
 			</data>
 			<key>hash2</key>
 			<data>
-			1iHABnecyNHITCcY40JoIX59ob2C2pN8vwG1wl6M78w=
+			Dpk6EoIpooeSJYjztubq32LIJOjEOtQ/5ezvsBumRjg=
 			</data>
 		</dict>
 		<key>Resources/USB/USBInjectAll-Info.plist</key>
@@ -4119,6 +4183,17 @@
 			<key>hash2</key>
 			<data>
 			ozTQ9sKgkQMGimDXlikGP/GUIGM3eLhsF8x24HX49fI=
+			</data>
+		</dict>
+		<key>Resources/USB/usb.ids</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			P+iRFr0gAEvDygdtviBfxINRc7o=
+			</data>
+			<key>hash2</key>
+			<data>
+			X2QtJw2QDWqTFHpCKqrHaTDhfdqV6yMjKJCouffPlX4=
 			</data>
 		</dict>
 		<key>Resources/Utilities/iasl</key>
@@ -4182,11 +4257,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vQRbYDbX+JMZAnJsvss6iY9UZWA=
+			s2MlQxGCYpDkztQWrqyN0cqpAF0=
 			</data>
 			<key>hash2</key>
 			<data>
-			6H/HLPeuXI2tb3vf30I3kCUqse1ZES8mfUJe0vHkCsM=
+			cnqU40yqMqrv3hti80wYEx6fN653+tldGjF5+OohAow=
 			</data>
 			<key>optional</key>
 			<true/>
