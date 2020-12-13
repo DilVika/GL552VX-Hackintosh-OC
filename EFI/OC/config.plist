@@ -424,8 +424,37 @@
 				<false/>
 			</dict>
 		</array>
+		<key>Patch</key>
+		<array>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>Comment</key>
+				<string>macOS to hacOS</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<false/>
+				<key>Find</key>
+				<data>bWFjT1M=</data>
+				<key>Identifier</key>
+				<string>Apple</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>Replace</key>
+				<data>aGFjT1M=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+		</array>
 		<key>Quirks</key>
 		<dict>
+			<key>AllowRelocationBlock</key>
+			<false/>
 			<key>AvoidRuntimeDefrag</key>
 			<true/>
 			<key>DevirtualiseMmio</key>
@@ -1258,6 +1287,8 @@
 			<integer>0</integer>
 			<key>AuthRestart</key>
 			<false/>
+			<key>BlacklistAppleUpdate</key>
+			<true/>
 			<key>DmgLoading</key>
 			<string>Signed</string>
 			<key>BootProtect</key>
@@ -1421,6 +1452,8 @@
 	<dict>
 		<key>Automatic</key>
 		<true/>
+		<key>CustomMemory</key>
+		<false/>
 		<key>Generic</key>
 		<dict>
 			<key>AdviseWindows</key>
@@ -1428,7 +1461,7 @@
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>MLB</key>
-			<string>C02715401J9HCF98C</string>
+			<string>C02604104GUHCF9JA</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
@@ -1438,9 +1471,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro13,3</string>
 			<key>SystemSerialNumber</key>
-			<string>C02TK6ZLGTFN</string>
+			<string>C02R50ZYGTFN</string>
 			<key>SystemUUID</key>
-			<string>D13C8A13-C862-4D3C-A05F-040FCC76A7B1</string>
+			<string>7AB56C2D-E3A1-467F-BB5B-3B3E948B3E46</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1491,7 +1524,6 @@
 		<array>
 			<string>HfsPlus.efi</string>
 			<string>OpenRuntime.efi</string>
-			<string>AudioDxe.efi</string>
 			<string>OpenCanopy.efi</string>
 			<string>Ps2MouseDxe.efi</string>
 		</array>
@@ -1523,6 +1555,8 @@
 			<key>ConsoleMode</key>
 			<string></string>
 			<key>DirectGopRendering</key>
+			<false/>
+			<key>ForceResolution</key>
 			<false/>
 			<key>IgnoreTextInGraphics</key>
 			<false/>
