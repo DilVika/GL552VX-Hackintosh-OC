@@ -472,7 +472,7 @@
 			<key>ForceExitBootServices</key>
 			<false/>
 			<key>ProtectMemoryRegions</key>
-			<false/>
+			<true/>
 			<key>ProtectSecureBoot</key>
 			<false/>
 			<key>ProtectUefiServices</key>
@@ -488,7 +488,7 @@
 			<key>SignalAppleOS</key>
 			<false/>
 			<key>SyncRuntimePermissions</key>
-			<true/>
+			<false/>
 		</dict>
 	</dict>
 	<key>DeviceProperties</key>
@@ -1230,8 +1230,7 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array>
-		</array>
+		<array/>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleAttributes</key>
@@ -1275,8 +1274,7 @@
 			<integer>0</integer>
 		</dict>
 		<key>Entries</key>
-		<array>
-		</array>
+		<array/>
 		<key>Security</key>
 		<dict>
 			<key>AllowNvramReset</key>
@@ -1395,7 +1393,7 @@
 				<key>run-efi-updater</key>
 				<string>No</string>
 				<key>csr-active-config</key>
-				<data>/w8AAA==</data>
+				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
 				<string>en-US:0</string>
 			</dict>
@@ -1526,6 +1524,7 @@
 			<string>OpenRuntime.efi</string>
 			<string>OpenCanopy.efi</string>
 			<string>Ps2MouseDxe.efi</string>
+			<string>AudioDxe.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
